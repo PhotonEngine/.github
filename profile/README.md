@@ -20,19 +20,25 @@
 
 ---
 
-Photon is built by Exit Games in Hamburg, Germany. Our SDKs connect games and real-time apps across mobile, PC, consoles and VR/AR. They run on the global Photon Cloud, which is hosted in all major regions and reaches more than 1.4 billion players every month. More than 1 million studios and developers use Photon.
+Photon is built by Exit Games in Hamburg, Germany. Our SDKs connect games and real-time apps across mobile, PC, consoles and VR/AR. They run on the global Photon Cloud, which is hosted in all major regions and reaches more than a billion players every month. More than 1 million studios and developers use Photon.
 
 ## Products
 
 | Product | What it does | Platforms | Docs |
 | --- | --- | --- | --- |
-| **Fusion** | State synchronization with snapshot interpolation, prediction, lag compensation and high player counts | Unity, Unreal Engine (preview) | [Fusion 2](https://doc.photonengine.com/fusion/v2/fusion-intro) |
-| **Quantum** | Deterministic engine with prediction and rollback for physics and input | Unity | [Quantum 3](https://doc.photonengine.com/quantum/v3/quantum-intro) |
-| **Realtime** | Low-level API for matchmaking, rooms, custom properties and NAT punch-through. Fusion and Quantum are built on it. | Unity, .NET, C++ | [Realtime 5](https://doc.photonengine.com/realtime/v5/realtime-intro) |
-| **Chat** | Low-latency text chat for games and communities | Unity, .NET | [Chat](https://doc.photonengine.com/chat/current/getting-started/chat-intro) |
-| **Voice** | Low-latency voice chat with 3D audio, noise reduction and echo cancellation | Unity | [Voice 2](https://doc.photonengine.com/voice/v2/getting-started/voice-intro) |
-| **PUN 2** | Photon Unity Networking, our classic Unity package | Unity | [PUN 2](https://doc.photonengine.com/pun/v2/getting-started/pun-intro) |
-| **Server** | Photon Server for self-hosted, on-premises deployments | Self-hosted | [Server 5](https://doc.photonengine.com/server/v5/getting-started/photon-server-in-5min) |
+| **Fusion for Unity** | State-synchronization netcode with [shared authority, client host or dedicated server](https://doc.photonengine.com/fusion/current/fusion-choose) topologies, plus single-player | Unity | [Fusion 2](https://doc.photonengine.com/fusion/v2/fusion-intro) |
+| **Fusion for Unreal** | Fusion 3 netcode with shared authority on the Photon Cloud | Unreal Engine 5.4+ | [Fusion 3](https://doc.photonengine.com/fusion-unreal/current/fusion-intro) |
+| **Fusion for Godot** | Fusion 3 netcode with shared authority or client/server topologies | Godot 4.6+ | [Shared authority](https://doc.photonengine.com/fusion-godot/v3-shared-authority/fusion-intro), [Client/server](https://doc.photonengine.com/fusion-godot/v3-client-server/fusion-intro) |
+| **Quantum 3** | Deterministic engine with rollback and cheat resistance and no netcode to write | Unity | [Quantum 3](https://doc.photonengine.com/quantum/v3/quantum-intro) |
+| **Realtime** | Low-level Photon Cloud SDK for matchmaking, rooms and relay. Fusion and Quantum are built on it. | Unity, Unreal, .NET, C++, JavaScript | [Realtime 5](https://doc.photonengine.com/realtime/v5/realtime-intro), [Realtime Core 6](https://doc.photonengine.com/realtime-core/v6/realtime-core-intro) (C++) |
+| **Chat** | In-game chat and messaging with channels, private messages, friend status and history | Unity, Unreal, .NET, C++, JavaScript | [Chat](https://doc.photonengine.com/chat/current/getting-started/chat-intro) |
+| **Voice** | Voice chat with 3D spatial and proximity audio and push-to-talk. Works with Fusion, Quantum and PUN. | Unity, Unreal, JavaScript, consoles | [Voice 2](https://doc.photonengine.com/voice/v2/getting-started/voice-intro) |
+| **Video** | Real-time H.264 video streaming, built on Photon Voice | Unity | [Video 2](https://doc.photonengine.com/video/v2/video-intro) |
+| **PUN 2** | Legacy Unity networking in maintenance mode. New projects should use Fusion or Quantum. | Unity | [PUN 2](https://doc.photonengine.com/pun/v2/getting-started/pun-intro) |
+| **Tournament** | Automated esports-style tournaments inside your game, from sign-up to rewards. Works with any networking solution. | Unity, Unreal | [Tournament SDK](https://doc.photonengine.com/tournamentsdk/current/overview) |
+| **Server** | On-premises Photon Server for self-hosting. Requires a Circle membership. | Self-hosted | [Server 5](https://doc.photonengine.com/server/v5/getting-started/photon-server-intro) |
+
+[Gaming Circle](https://www.photonengine.com/gaming) and [Industries Circle](https://www.photonengine.com/industries) memberships add premium support, extra samples and Photon Server.
 
 ## Get started
 
