@@ -46,13 +46,14 @@ Photon is built by Exit Games in Hamburg, Germany. Our SDKs connect games and re
 2. [Download the SDK](https://www.photonengine.com/sdks) for your product and engine.
 3. Follow the product's introduction in the [docs](https://doc.photonengine.com).
 
-## Repositories
+## Samples
 
-This organization hosts samples and integrations for Photon Cloud and Photon Server:
-
-- **Webhooks:** [photon.realtime.webhooks.webapps](https://github.com/PhotonEngine/photon.realtime.webhooks.webapps) (Azure App Service with Blob and Table Storage) and [photon.realtime.webhooks.serverless](https://github.com/PhotonEngine/photon.realtime.webhooks.serverless) (Azure Functions)
-- **Custom authentication:** [photon.customauth.serverless](https://github.com/PhotonEngine/photon.customauth.serverless)
-- **Server monitoring:** Photon Counters publishers for [AWS CloudWatch](https://github.com/PhotonEngine/photon.counterpublisher.cloudwatch) and [New Relic](https://github.com/PhotonEngine/photon.counterpublisher.newrelic)
+- **Fusion for Unity:** [All samples](https://github.com/search?q=org:PhotonEngine+topic:fusion+topic:unity&type=repositories) · [Game samples](https://github.com/search?q=org:PhotonEngine+topic:fusion+topic:unity+topic:game-sample&type=repositories) · [Technical samples](https://github.com/search?q=org:PhotonEngine+topic:fusion+topic:unity+topic:tech-sample&type=repositories)
+- **Quantum for Unity:** [All samples](https://github.com/search?q=org:PhotonEngine+topic:quantum+topic:unity&type=repositories) · [Game samples](https://github.com/search?q=org:PhotonEngine+topic:quantum+topic:unity+topic:game-sample&type=repositories) · [Technical samples](https://github.com/search?q=org:PhotonEngine+topic:quantum+topic:unity+topic:tech-sample&type=repositories)
+<!--
+- **Fusion for Godot:** [All samples](https://github.com/search?q=org:PhotonEngine+topic:fusion+topic:godot&type=repositories) · [Game samples](https://github.com/search?q=org:PhotonEngine+topic:fusion+topic:godot+topic:game-sample&type=repositories) · [Technical samples](https://github.com/search?q=org:PhotonEngine+topic:fusion+topic:godot+topic:tech-sample&type=repositories)
+- **Fusion for Unreal:** [All samples](https://github.com/search?q=org:PhotonEngine+topic:fusion+topic:unreal&type=repositories) · [Game samples](https://github.com/search?q=org:PhotonEngine+topic:fusion+topic:unreal+topic:game-sample&type=repositories) · [Technical samples](https://github.com/search?q=org:PhotonEngine+topic:fusion+topic:unreal+topic:tech-sample&type=repositories)
+-->
 
 ## Stay in touch
 
